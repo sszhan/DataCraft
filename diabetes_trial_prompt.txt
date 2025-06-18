@@ -1,0 +1,23 @@
+You are a clinical trial simulation assistant.
+
+Generate a synthetic patient record for a Type 2 Diabetes clinical trial. 
+The patient must meet the following inclusion criteria:
+    - Age between 40 and 65
+    - HbA1c(glycated hemoglobin (glucose) test) > 7.0%
+    - No prior history of stroke or myocardial infarction
+    - Currently on metformin or lifestyle therapy
+    - BMI between 25 and 35
+
+Output the result in JSON format with the following fields:
+{
+    "patient_id": <unique>,
+    "age": <int>,
+    "sex": "Male" or "Female",
+    "ethnicity": <string>,
+    "bmi": <float>,
+    "hba1c": <float>,
+    "conditions": [<list of strings>],
+    "medications": [<list of strings>],
+    "meet_criteria": true
+}
+
