@@ -1,58 +1,123 @@
-import random 
-import json
-from pathlib import Path
+#generator.py
 
+import random 
+#import json
+#from pathlib import Path
+from datetime import datetime, timedelta
+
+#import custom/personal files
+from data_mapping import conditions_map, medications_map, labs_map
+from eligibility_criteria import check_eligibility
 #define helper functions for lab values and conditions
 
-def  generate_hba1c():   
-     return round(random.uniform(6.5, 9.5), 1)
 
-def generate_bmi():
-    return round(random.uniform(25.0, 35.0), 1)
+#helper generation functions
 
-def generate_age():
-     return random.randint(40, 65)
+def  generate_demographics():   
+     return {
+          "age": random.randint(40, 70),
+          "sex": random.choice(["Male", "Female"]),
+          "ethnicity": random.choice(["White", "Black", "Hispanic", "Asian", "Other"])
+     }
 
-def generate_ethnicity():
-     return random.choice(["White", "Black", "Hispanic", "Asian", "Other"])
+def generate_raw_labs():
+    return {
+         "hba1c": round(random.uniform(5.0, 9.5), 1),
+         "bmi": round(random.uniform(24.0, 40.0), 1)
+    }
 
-def generate_conditions():
+def generate_base_conditions():
      base_conditions = ["Type 2 Diabetes"]
      optional_conditions = ["Hypertension", "Hyperlipidemia", "Obesity"]
-     return base_conditions + random.sample(optional_conditions, random.randint(0, 2))
+     #ensures some patients might not have the required condition
+     if random.random() < 0.1:  #10% chance not having T2D
+          base_conditions = []
+     
+     num_optional = random.randint(0, len(optional_conditions))
+     return base_conditions + random.sample(optional_conditions, num_optional)
 
-def generate_sex():
-     return random.choice(["Male", "Female"])
+def generate_base_medications(conditions):
+     meds = []
+     if "Type 2 Diabetes" in conditions:
+          meds.append("Metformin")
+     if "Hypertension" in conditions:
+          meds.append("Lisinopril")
+     if "Hyperlipidemia" in conditions:
+          meds.append("Atorvastatin")
+     if "Obesity" in conditions:
+          meds.append("Lifestyle Therapy")
+     return meds
 
-def generate_medications():
-     base_meds = ["Metformin"]
-     optional_meds = ["Lisinopril", "Atorvastatin", "Lifestyle Therapy"]
-     return base_meds + random.sample(optional_meds, random.randint(0, 2))
+def generate_date(base_year):
+     """generate a random date within the last few years"""
+     start_date = datetime(base_year - random.randint(1, 5), 1, 1)
+     end_date = datetime(base_year, 1, 1)
+     random_date = start_date + timedelta(days=random.randint(0, (end_date - start_date).days))
+     return random_date.strftime("%Y-%m-%d")
 
-#generator function
-def generate_patient(patient_id):
-     patient = {
-          "patient_id": patient_id,
-          "age": generate_age(),
-          "sex": generate_sex(),
-          "ethnicity": generate_ethnicity(),
-          "bmi": generate_bmi(),
-          "hba1c": generate_hba1c(),
-          "conditions": generate_conditions(),
-          "medications": generate_medications(),
-          "meets criteria": True   #logic assumes generation meets criteria
+#main generation function
+
+def generate_patient_record(patient_id):
+     """generates a single, detailed patient record conforming to target schema"""
+     
+     #generate base attributes
+     demographics = generate_demographics()
+     raw_labs = generate_raw_labs()
+     base_conditions = generate_base_conditions()
+     base_meds = generate_base_medications(base_conditions)
+
+     #create temporary profile for eligibility check
+     temp_profile = {
+          **demographics,
+          **raw_labs,
+          "conditions" : base_conditions,
+          "medications": base_meds
      }
-     return patient
 
-if __name__ == "main":
-     out_dir = Path("../synthetic_data/")
-     out_dir.mkdir(exist_ok=True)
+     #check eligibility
+     is_eligible, reasons = check_eligibility(temp_profile)
 
-     patients = []
-     for i in range(100):
-          pid = f"P{i:04d}"
-          patient = generate_patient(pid)
-          patients.append(patient)
-    
-     with open(out_dir / "patients_sample.json", "w") as f:
-         json.dump(patients, f, indent = 2)
+     #build final structured record
+     patient_record = {
+          "patient_id": patient_id,
+          "age": demographics["age"],
+          "sex": demographics["sex"],
+          "ethnicity": demographics["ethnicity"],
+          "trial_eligible": is_eligible,
+          "ineligibility_reasons": reasons,
+          "conditions": [],
+          "medications": [],
+          "lab_results": []
+     }
+
+     #make detailed conditions
+     for cond_name in base_conditions:
+          if cond_name in conditions_map:
+               patient_record["conditions"].append({
+                    "condition_name": cond_name,
+                    "icd_10_code": conditions_map[cond_name]["icd_10_code"],
+                    "date_of_diagnosis": generate_date(datetime.now().year - demographics["age"] + 30) #approx diagnosis date
+               })
+     
+     #make detailed medications
+     for med_name in base_meds:
+          if med_name in medications_map:
+               med_info = medications_map[med_name]
+               patient_record["medications"].append({
+                    "medication_name" : med_name,
+                    "rx_norm_code": med_info["rx_norm_code"],
+                    "dosage": med_info["dosage"],
+                    "frequency": med_info["frequency"]
+               })
+
+     #make detailed lab results
+     for lab_key, lab_value in raw_labs.items():
+          if lab_key in labs_map:
+               lab_info = labs_map[lab_key]
+               patient_record["lab_results"].append({
+                    "test_name": lab_info["test_name"],
+                    "loinc_code": lab_info["loinc_code"],
+                    "values": lab_value,
+                    "units": lab_info["units"]
+               })
+     return patient_record
