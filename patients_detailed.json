@@ -1,0 +1,4851 @@
+[
+  {
+    "patient_id": "P0000",
+    "age": 50,
+    "sex": "Male",
+    "ethnicity": "Other",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2001-08-27"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2002-08-05"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2004-10-10"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2002-04-02"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 31.9,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0001",
+    "age": 43,
+    "sex": "Male",
+    "ethnicity": "Other",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2008-07-29"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2010-08-24"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2011-03-12"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2009-10-21"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.7,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 24.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0002",
+    "age": 50,
+    "sex": "Female",
+    "ethnicity": "Other",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2003-11-26"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 36.6,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0003",
+    "age": 69,
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 69 outside range [40-65]"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1984-09-29"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1985-12-05"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1981-05-19"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1985-05-17"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 9.0,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 30.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0004",
+    "age": 60,
+    "sex": "Male",
+    "ethnicity": "Hispanic",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1993-12-29"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1992-08-01"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1994-08-14"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1994-02-12"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.5,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 31.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0005",
+    "age": 42,
+    "sex": "Male",
+    "ethnicity": "White",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.1% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2012-10-20"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2011-05-05"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.1,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 25.6,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0006",
+    "age": 62,
+    "sex": "Male",
+    "ethnicity": "White",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1990-05-30"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.0,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 30.4,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0007",
+    "age": 49,
+    "sex": "Male",
+    "ethnicity": "Other",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.8% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2005-04-09"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2005-06-16"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2003-08-28"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.8,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 27.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0008",
+    "age": 50,
+    "sex": "Female",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.6% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2004-09-24"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2002-10-31"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 36.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0009",
+    "age": 49,
+    "sex": "Male",
+    "ethnicity": "White",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 6.3% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2004-09-08"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.3,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 34.4,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0010",
+    "age": 53,
+    "sex": "Male",
+    "ethnicity": "Hispanic",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2000-03-25"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1999-05-16"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2002-01-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 9.4,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 32.7,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0011",
+    "age": 66,
+    "sex": "Male",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 66 outside range [40-65]",
+      "Hba1c 5.5% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1986-07-18"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1988-08-13"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1985-10-30"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.5,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 25.8,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0012",
+    "age": 52,
+    "sex": "Female",
+    "ethnicity": "White",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.4% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2002-04-19"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1999-12-26"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1999-07-17"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2001-04-10"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.4,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 32.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0013",
+    "age": 67,
+    "sex": "Female",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 67 outside range [40-65]",
+      "Missing required condition: Type 2 Diabetes"
+    ],
+    "conditions": [],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.4,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 29.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0014",
+    "age": 66,
+    "sex": "Female",
+    "ethnicity": "Black",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 66 outside range [40-65]"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1988-12-02"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1987-09-28"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1985-03-17"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1985-06-02"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.5,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 34.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0015",
+    "age": 60,
+    "sex": "Male",
+    "ethnicity": "Other",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 6.1% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1993-04-17"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.1,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 31.7,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0016",
+    "age": 65,
+    "sex": "Female",
+    "ethnicity": "Other",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1988-09-19"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1985-06-07"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1987-03-26"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.8,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 35.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0017",
+    "age": 62,
+    "sex": "Female",
+    "ethnicity": "Other",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1992-09-23"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1991-04-03"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 9.2,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 39.6,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0018",
+    "age": 64,
+    "sex": "Male",
+    "ethnicity": "Asian",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1987-04-08"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.7,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 29.0,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0019",
+    "age": 55,
+    "sex": "Male",
+    "ethnicity": "White",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1998-09-25"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.8,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 37.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0020",
+    "age": 56,
+    "sex": "Male",
+    "ethnicity": "Hispanic",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.6% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1997-05-01"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1998-12-02"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1998-11-25"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 27.7,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0021",
+    "age": 57,
+    "sex": "Male",
+    "ethnicity": "Hispanic",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1997-04-22"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1993-06-27"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1997-06-19"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1997-06-25"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 28.8,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0022",
+    "age": 67,
+    "sex": "Female",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 67 outside range [40-65]"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1985-07-17"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1985-09-11"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 32.1,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0023",
+    "age": 66,
+    "sex": "Male",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 66 outside range [40-65]",
+      "Missing required condition: Type 2 Diabetes"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1986-03-27"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1989-01-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 9.3,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 38.9,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0024",
+    "age": 50,
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2004-08-14"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.8,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 31.9,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0025",
+    "age": 60,
+    "sex": "Male",
+    "ethnicity": "Hispanic",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1994-04-15"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1994-05-07"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.0,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 27.4,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0026",
+    "age": 58,
+    "sex": "Male",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Missing required condition: Type 2 Diabetes"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1994-08-02"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1993-12-30"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1996-07-28"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.1,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 26.0,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0027",
+    "age": 41,
+    "sex": "Male",
+    "ethnicity": "Hispanic",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2011-09-29"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2013-01-26"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2013-06-01"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2012-03-21"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.0,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 39.1,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0028",
+    "age": 62,
+    "sex": "Male",
+    "ethnicity": "Asian",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1992-01-08"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1989-08-02"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1992-07-31"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1990-02-24"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 9.4,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 27.1,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0029",
+    "age": 47,
+    "sex": "Male",
+    "ethnicity": "White",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2003-04-24"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 34.9,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0030",
+    "age": 57,
+    "sex": "Female",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 6.3% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1997-12-01"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1995-12-18"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1994-10-08"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.3,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 29.9,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0031",
+    "age": 65,
+    "sex": "Male",
+    "ethnicity": "Hispanic",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1988-11-09"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.5,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 25.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0032",
+    "age": 55,
+    "sex": "Female",
+    "ethnicity": "White",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.5% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1998-10-26"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1998-01-29"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.5,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 25.4,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0033",
+    "age": 46,
+    "sex": "Male",
+    "ethnicity": "Other",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2006-10-06"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.7,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 38.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0034",
+    "age": 48,
+    "sex": "Female",
+    "ethnicity": "Asian",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2003-05-11"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.7,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 28.5,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0035",
+    "age": 57,
+    "sex": "Female",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 6.4% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1997-10-31"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1997-12-15"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.4,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 34.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0036",
+    "age": 67,
+    "sex": "Male",
+    "ethnicity": "Black",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 67 outside range [40-65]",
+      "Hba1c 5.5% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1985-12-07"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1987-05-01"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1987-01-18"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1986-03-04"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.5,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 31.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0037",
+    "age": 64,
+    "sex": "Male",
+    "ethnicity": "Other",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Missing required condition: Type 2 Diabetes"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1989-09-29"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.4,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 31.1,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0038",
+    "age": 64,
+    "sex": "Male",
+    "ethnicity": "White",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1990-08-29"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.8,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 29.8,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0039",
+    "age": 66,
+    "sex": "Female",
+    "ethnicity": "White",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 66 outside range [40-65]"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1987-08-02"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1987-09-19"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 30.7,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0040",
+    "age": 57,
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1997-02-09"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.5,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 34.4,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0041",
+    "age": 56,
+    "sex": "Male",
+    "ethnicity": "Asian",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1997-09-23"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1996-12-10"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.2,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 25.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0042",
+    "age": 61,
+    "sex": "Male",
+    "ethnicity": "Hispanic",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.8% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1990-05-13"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1993-01-19"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1993-09-02"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.8,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 29.6,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0043",
+    "age": 43,
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2011-02-01"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2011-05-22"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2007-12-16"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 9.0,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 39.4,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0044",
+    "age": 50,
+    "sex": "Female",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 6.2% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2004-05-08"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2004-08-14"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2002-03-13"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.2,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 26.6,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0045",
+    "age": 47,
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2007-02-06"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2006-03-02"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2006-10-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.5,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 32.6,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0046",
+    "age": 62,
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.8% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1990-06-08"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.8,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 30.5,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0047",
+    "age": 70,
+    "sex": "Male",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 70 outside range [40-65]",
+      "Missing required condition: Type 2 Diabetes"
+    ],
+    "conditions": [],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 9.0,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 27.4,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0048",
+    "age": 46,
+    "sex": "Male",
+    "ethnicity": "Asian",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2007-10-31"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2008-12-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.8,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 28.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0049",
+    "age": 42,
+    "sex": "Female",
+    "ethnicity": "White",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2009-05-07"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 9.4,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 39.9,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0050",
+    "age": 50,
+    "sex": "Female",
+    "ethnicity": "White",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2004-11-03"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2004-03-16"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2004-04-29"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.3,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 25.4,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0051",
+    "age": 55,
+    "sex": "Female",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 6.0% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1999-01-23"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1998-02-18"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1999-10-07"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1996-01-30"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.0,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 26.8,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0052",
+    "age": 63,
+    "sex": "Female",
+    "ethnicity": "Black",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1989-04-23"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1988-02-25"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.7,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 33.9,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0053",
+    "age": 51,
+    "sex": "Female",
+    "ethnicity": "Black",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 6.1% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2003-04-26"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2002-08-17"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2003-08-21"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.1,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 28.8,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0054",
+    "age": 64,
+    "sex": "Female",
+    "ethnicity": "Other",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.4% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1990-01-25"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1990-03-04"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1990-08-02"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.4,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 32.0,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0055",
+    "age": 65,
+    "sex": "Female",
+    "ethnicity": "Black",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.6% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1986-01-06"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1986-10-11"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1989-06-21"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 30.0,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0056",
+    "age": 55,
+    "sex": "Female",
+    "ethnicity": "Black",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Missing required condition: Type 2 Diabetes"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1999-08-11"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1998-02-19"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.1,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 25.9,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0057",
+    "age": 63,
+    "sex": "Female",
+    "ethnicity": "White",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.4% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1991-01-03"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1990-10-03"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1990-11-04"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.4,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 28.5,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0058",
+    "age": 54,
+    "sex": "Male",
+    "ethnicity": "White",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2000-07-21"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1996-01-10"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.5,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 31.4,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0059",
+    "age": 52,
+    "sex": "Male",
+    "ethnicity": "Other",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 6.3% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2002-04-12"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2000-08-17"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.3,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 38.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0060",
+    "age": 52,
+    "sex": "Male",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Missing required condition: Type 2 Diabetes"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2000-01-11"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.8,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 39.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0061",
+    "age": 48,
+    "sex": "Female",
+    "ethnicity": "Other",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2005-02-09"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2003-12-08"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2005-12-08"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2003-08-28"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.0,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 28.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0062",
+    "age": 49,
+    "sex": "Male",
+    "ethnicity": "Other",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2005-07-01"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2003-06-14"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2002-12-08"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.3,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 33.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0063",
+    "age": 48,
+    "sex": "Male",
+    "ethnicity": "White",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Missing required condition: Type 2 Diabetes"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2006-08-07"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2006-08-25"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.1,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 39.0,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0064",
+    "age": 46,
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 6.2% is below minimum of 6.5%",
+      "Missing required condition: Type 2 Diabetes"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2007-09-23"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2008-06-01"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2008-10-04"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.2,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 25.4,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0065",
+    "age": 41,
+    "sex": "Male",
+    "ethnicity": "Other",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2010-05-02"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2011-03-12"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 29.9,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0066",
+    "age": 70,
+    "sex": "Male",
+    "ethnicity": "Other",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 70 outside range [40-65]",
+      "Hba1c 5.7% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1983-07-14"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1984-09-27"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1982-05-07"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1984-02-28"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.7,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 39.0,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0067",
+    "age": 57,
+    "sex": "Male",
+    "ethnicity": "White",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.3% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1996-12-04"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.3,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 36.9,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0068",
+    "age": 51,
+    "sex": "Female",
+    "ethnicity": "Other",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2002-09-18"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2000-07-28"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.8,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 38.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0069",
+    "age": 60,
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 6.4% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1993-07-13"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1991-06-25"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1994-09-17"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.4,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 28.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0070",
+    "age": 59,
+    "sex": "Female",
+    "ethnicity": "Other",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1995-03-04"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1992-06-13"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1992-10-03"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 24.7,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0071",
+    "age": 69,
+    "sex": "Male",
+    "ethnicity": "Other",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 69 outside range [40-65]"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1984-01-16"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1983-04-20"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1984-11-25"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1984-08-30"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.5,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 38.4,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0072",
+    "age": 61,
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 6.0% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1991-01-07"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.0,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 32.7,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0073",
+    "age": 44,
+    "sex": "Male",
+    "ethnicity": "Black",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2010-02-10"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2010-01-13"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2009-11-04"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2010-04-19"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.4,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 34.1,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0074",
+    "age": 54,
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.5% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2000-05-18"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2000-11-02"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.5,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 31.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0075",
+    "age": 49,
+    "sex": "Male",
+    "ethnicity": "Asian",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2004-01-30"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 29.1,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0076",
+    "age": 57,
+    "sex": "Male",
+    "ethnicity": "White",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.2% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1997-01-30"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1994-04-25"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1997-10-01"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1995-12-27"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.2,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 33.0,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0077",
+    "age": 64,
+    "sex": "Male",
+    "ethnicity": "White",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1990-09-29"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1989-11-18"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1990-03-10"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.8,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 37.7,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0078",
+    "age": 60,
+    "sex": "Male",
+    "ethnicity": "White",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1993-07-09"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.9,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 38.5,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0079",
+    "age": 51,
+    "sex": "Female",
+    "ethnicity": "Other",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2002-04-22"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2002-09-24"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2000-06-04"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.9,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 27.8,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0080",
+    "age": 70,
+    "sex": "Male",
+    "ethnicity": "Other",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 70 outside range [40-65]"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1982-04-24"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1984-06-21"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.5,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 26.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0081",
+    "age": 62,
+    "sex": "Female",
+    "ethnicity": "Black",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.5% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1989-05-11"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.5,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 33.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0082",
+    "age": 54,
+    "sex": "Female",
+    "ethnicity": "Black",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2000-08-05"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1999-07-12"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1999-12-07"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 27.9,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0083",
+    "age": 53,
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2000-10-25"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2000-09-13"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2001-06-26"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.9,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 34.6,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0084",
+    "age": 68,
+    "sex": "Male",
+    "ethnicity": "Hispanic",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 68 outside range [40-65]"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1986-01-26"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1986-11-16"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1986-04-28"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.1,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 39.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0085",
+    "age": 52,
+    "sex": "Female",
+    "ethnicity": "Other",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 5.8% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1999-05-20"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.8,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 35.1,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0086",
+    "age": 48,
+    "sex": "Male",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 6.1% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2006-08-01"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2004-12-17"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2005-03-17"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.1,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 35.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0087",
+    "age": 66,
+    "sex": "Male",
+    "ethnicity": "White",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 66 outside range [40-65]"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1988-04-17"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1988-01-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.2,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 39.6,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0088",
+    "age": 67,
+    "sex": "Female",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 67 outside range [40-65]"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1987-03-22"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1985-03-03"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1986-10-13"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1985-07-15"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.0,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 26.9,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0089",
+    "age": 67,
+    "sex": "Male",
+    "ethnicity": "Black",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 67 outside range [40-65]"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1984-04-05"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1986-05-26"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1987-02-01"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.7,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 27.5,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0090",
+    "age": 61,
+    "sex": "Female",
+    "ethnicity": "White",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1990-07-19"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.9,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 33.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0091",
+    "age": 42,
+    "sex": "Male",
+    "ethnicity": "Asian",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2012-09-14"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "2009-12-11"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2010-02-08"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2012-01-11"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 38.2,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0092",
+    "age": 64,
+    "sex": "Male",
+    "ethnicity": "Black",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1990-01-12"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1989-07-27"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1987-04-28"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.6,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 27.8,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0093",
+    "age": 65,
+    "sex": "Female",
+    "ethnicity": "White",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Hba1c 6.3% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1989-06-05"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1988-03-15"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1989-11-07"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1989-07-14"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.3,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 39.4,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0094",
+    "age": 56,
+    "sex": "Male",
+    "ethnicity": "Black",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1998-03-11"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1998-07-28"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1998-03-11"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1998-11-19"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 8.3,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 36.9,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0095",
+    "age": 51,
+    "sex": "Male",
+    "ethnicity": "Black",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "2001-03-28"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "2003-06-15"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "2001-11-13"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1999-03-29"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.1,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 25.1,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0096",
+    "age": 60,
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "trial_eligible": true,
+    "ineligibility_reasons": [],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1994-06-27"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1993-05-24"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1994-09-12"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 7.1,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 31.7,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0097",
+    "age": 70,
+    "sex": "Female",
+    "ethnicity": "White",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 70 outside range [40-65]",
+      "Hba1c 6.2% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1984-04-17"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1984-05-18"
+      },
+      {
+        "condition_name": "Hyperlipidemia",
+        "icd_10_code": "E78.5",
+        "date_of_diagnosis": "1983-04-01"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1984-02-25"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "rx_norm_code": "860364",
+        "dosage": "20 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.2,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 30.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0098",
+    "age": 70,
+    "sex": "Male",
+    "ethnicity": "White",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 70 outside range [40-65]",
+      "Hba1c 5.3% is below minimum of 6.5%"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1984-08-06"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1984-02-12"
+      },
+      {
+        "condition_name": "Hypertension",
+        "icd_10_code": "I10",
+        "date_of_diagnosis": "1983-05-13"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lisinopril",
+        "rx_norm_code": "314076",
+        "dosage": "10 mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 5.3,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 36.3,
+        "units": "kg/m^2"
+      }
+    ]
+  },
+  {
+    "patient_id": "P0099",
+    "age": 69,
+    "sex": "Male",
+    "ethnicity": "Asian",
+    "trial_eligible": false,
+    "ineligibility_reasons": [
+      "Age 69 outside range [40-65]"
+    ],
+    "conditions": [
+      {
+        "condition_name": "Type 2 Diabetes",
+        "icd_10_code": "E11.9",
+        "date_of_diagnosis": "1985-12-08"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd_10_code": "E66.9",
+        "date_of_diagnosis": "1985-06-25"
+      }
+    ],
+    "medications": [
+      {
+        "medication_name": "Lifestyle Therapy",
+        "rx_norm_code": "N/A",
+        "dosage": "N/A",
+        "frequency": "ongoing"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "loinc_code": "4548-4",
+        "values": 6.5,
+        "units": "%"
+      },
+      {
+        "test_name": "Body Mass Index",
+        "loinc_code": "39156-5",
+        "values": 32.1,
+        "units": "kg/m^2"
+      }
+    ]
+  }
+]

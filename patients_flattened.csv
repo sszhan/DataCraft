@@ -1,0 +1,602 @@
+patient_id,age,sex,ethnicity,trial_eligible,ineligibility_reasons,record_type,name,code,details
+P0000,50,Male,Other,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2001-08-27
+P0000,50,Male,Other,True,,Condition,Obesity,E66.9,Diagnosed: 2002-08-05
+P0000,50,Male,Other,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 2004-10-10
+P0000,50,Male,Other,True,,Condition,Hypertension,I10,Diagnosed: 2002-04-02
+P0000,50,Male,Other,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0000,50,Male,Other,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0000,50,Male,Other,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0000,50,Male,Other,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.6 %
+P0000,50,Male,Other,True,,Lab Result,Body Mass Index,39156-5,Value: 31.9 kg/m^2
+P0001,43,Male,Other,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2008-07-29
+P0001,43,Male,Other,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 2010-08-24
+P0001,43,Male,Other,True,,Condition,Hypertension,I10,Diagnosed: 2011-03-12
+P0001,43,Male,Other,True,,Condition,Obesity,E66.9,Diagnosed: 2009-10-21
+P0001,43,Male,Other,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0001,43,Male,Other,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0001,43,Male,Other,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0001,43,Male,Other,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.7 %
+P0001,43,Male,Other,True,,Lab Result,Body Mass Index,39156-5,Value: 24.2 kg/m^2
+P0002,50,Female,Other,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2003-11-26
+P0002,50,Female,Other,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.6 %
+P0002,50,Female,Other,True,,Lab Result,Body Mass Index,39156-5,Value: 36.6 kg/m^2
+P0003,69,Female,Hispanic,False,Age 69 outside range [40-65],Condition,Type 2 Diabetes,E11.9,Diagnosed: 1984-09-29
+P0003,69,Female,Hispanic,False,Age 69 outside range [40-65],Condition,Hypertension,I10,Diagnosed: 1985-12-05
+P0003,69,Female,Hispanic,False,Age 69 outside range [40-65],Condition,Obesity,E66.9,Diagnosed: 1981-05-19
+P0003,69,Female,Hispanic,False,Age 69 outside range [40-65],Condition,Hyperlipidemia,E78.5,Diagnosed: 1985-05-17
+P0003,69,Female,Hispanic,False,Age 69 outside range [40-65],Medication,Lisinopril,314076,"10 mg, once daily"
+P0003,69,Female,Hispanic,False,Age 69 outside range [40-65],Medication,Atorvastatin,860364,"20 mg, once daily"
+P0003,69,Female,Hispanic,False,Age 69 outside range [40-65],Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0003,69,Female,Hispanic,False,Age 69 outside range [40-65],Lab Result,Hemoglobin A1c,4548-4,Value: 9.0 %
+P0003,69,Female,Hispanic,False,Age 69 outside range [40-65],Lab Result,Body Mass Index,39156-5,Value: 30.3 kg/m^2
+P0004,60,Male,Hispanic,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1993-12-29
+P0004,60,Male,Hispanic,True,,Condition,Obesity,E66.9,Diagnosed: 1992-08-01
+P0004,60,Male,Hispanic,True,,Condition,Hypertension,I10,Diagnosed: 1994-08-14
+P0004,60,Male,Hispanic,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 1994-02-12
+P0004,60,Male,Hispanic,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0004,60,Male,Hispanic,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0004,60,Male,Hispanic,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0004,60,Male,Hispanic,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 6.5 %
+P0004,60,Male,Hispanic,True,,Lab Result,Body Mass Index,39156-5,Value: 31.3 kg/m^2
+P0005,42,Male,White,False,Hba1c 5.1% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2012-10-20
+P0005,42,Male,White,False,Hba1c 5.1% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 2011-05-05
+P0005,42,Male,White,False,Hba1c 5.1% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0005,42,Male,White,False,Hba1c 5.1% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.1 %
+P0005,42,Male,White,False,Hba1c 5.1% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 25.6 kg/m^2
+P0006,62,Male,White,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1990-05-30
+P0006,62,Male,White,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.0 %
+P0006,62,Male,White,True,,Lab Result,Body Mass Index,39156-5,Value: 30.4 kg/m^2
+P0007,49,Male,Other,False,Hba1c 5.8% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2005-04-09
+P0007,49,Male,Other,False,Hba1c 5.8% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 2005-06-16
+P0007,49,Male,Other,False,Hba1c 5.8% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 2003-08-28
+P0007,49,Male,Other,False,Hba1c 5.8% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0007,49,Male,Other,False,Hba1c 5.8% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0007,49,Male,Other,False,Hba1c 5.8% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.8 %
+P0007,49,Male,Other,False,Hba1c 5.8% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 27.2 kg/m^2
+P0008,50,Female,Asian,False,Hba1c 5.6% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2004-09-24
+P0008,50,Female,Asian,False,Hba1c 5.6% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 2002-10-31
+P0008,50,Female,Asian,False,Hba1c 5.6% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0008,50,Female,Asian,False,Hba1c 5.6% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.6 %
+P0008,50,Female,Asian,False,Hba1c 5.6% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 36.3 kg/m^2
+P0009,49,Male,White,False,Hba1c 6.3% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2004-09-08
+P0009,49,Male,White,False,Hba1c 6.3% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 6.3 %
+P0009,49,Male,White,False,Hba1c 6.3% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 34.4 kg/m^2
+P0010,53,Male,Hispanic,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2000-03-25
+P0010,53,Male,Hispanic,True,,Condition,Obesity,E66.9,Diagnosed: 1999-05-16
+P0010,53,Male,Hispanic,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 2002-01-01
+P0010,53,Male,Hispanic,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0010,53,Male,Hispanic,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0010,53,Male,Hispanic,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 9.4 %
+P0010,53,Male,Hispanic,True,,Lab Result,Body Mass Index,39156-5,Value: 32.7 kg/m^2
+P0011,66,Male,Asian,False,Age 66 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1986-07-18
+P0011,66,Male,Asian,False,Age 66 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1988-08-13
+P0011,66,Male,Asian,False,Age 66 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 1985-10-30
+P0011,66,Male,Asian,False,Age 66 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0011,66,Male,Asian,False,Age 66 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0011,66,Male,Asian,False,Age 66 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.5 %
+P0011,66,Male,Asian,False,Age 66 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 25.8 kg/m^2
+P0012,52,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2002-04-19
+P0012,52,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 1999-12-26
+P0012,52,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 1999-07-17
+P0012,52,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 2001-04-10
+P0012,52,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0012,52,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0012,52,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0012,52,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.4 %
+P0012,52,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 32.3 kg/m^2
+P0013,67,Female,Asian,False,Age 67 outside range [40-65]; Missing required condition: Type 2 Diabetes,Lab Result,Hemoglobin A1c,4548-4,Value: 8.4 %
+P0013,67,Female,Asian,False,Age 67 outside range [40-65]; Missing required condition: Type 2 Diabetes,Lab Result,Body Mass Index,39156-5,Value: 29.3 kg/m^2
+P0014,66,Female,Black,False,Age 66 outside range [40-65],Condition,Type 2 Diabetes,E11.9,Diagnosed: 1988-12-02
+P0014,66,Female,Black,False,Age 66 outside range [40-65],Condition,Obesity,E66.9,Diagnosed: 1987-09-28
+P0014,66,Female,Black,False,Age 66 outside range [40-65],Condition,Hypertension,I10,Diagnosed: 1985-03-17
+P0014,66,Female,Black,False,Age 66 outside range [40-65],Condition,Hyperlipidemia,E78.5,Diagnosed: 1985-06-02
+P0014,66,Female,Black,False,Age 66 outside range [40-65],Medication,Lisinopril,314076,"10 mg, once daily"
+P0014,66,Female,Black,False,Age 66 outside range [40-65],Medication,Atorvastatin,860364,"20 mg, once daily"
+P0014,66,Female,Black,False,Age 66 outside range [40-65],Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0014,66,Female,Black,False,Age 66 outside range [40-65],Lab Result,Hemoglobin A1c,4548-4,Value: 7.5 %
+P0014,66,Female,Black,False,Age 66 outside range [40-65],Lab Result,Body Mass Index,39156-5,Value: 34.2 kg/m^2
+P0015,60,Male,Other,False,Hba1c 6.1% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1993-04-17
+P0015,60,Male,Other,False,Hba1c 6.1% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 6.1 %
+P0015,60,Male,Other,False,Hba1c 6.1% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 31.7 kg/m^2
+P0016,65,Female,Other,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1988-09-19
+P0016,65,Female,Other,True,,Condition,Obesity,E66.9,Diagnosed: 1985-06-07
+P0016,65,Female,Other,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 1987-03-26
+P0016,65,Female,Other,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0016,65,Female,Other,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0016,65,Female,Other,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 8.8 %
+P0016,65,Female,Other,True,,Lab Result,Body Mass Index,39156-5,Value: 35.2 kg/m^2
+P0017,62,Female,Other,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1992-09-23
+P0017,62,Female,Other,True,,Condition,Hypertension,I10,Diagnosed: 1991-04-03
+P0017,62,Female,Other,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0017,62,Female,Other,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 9.2 %
+P0017,62,Female,Other,True,,Lab Result,Body Mass Index,39156-5,Value: 39.6 kg/m^2
+P0018,64,Male,Asian,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1987-04-08
+P0018,64,Male,Asian,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 8.7 %
+P0018,64,Male,Asian,True,,Lab Result,Body Mass Index,39156-5,Value: 29.0 kg/m^2
+P0019,55,Male,White,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1998-09-25
+P0019,55,Male,White,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 6.8 %
+P0019,55,Male,White,True,,Lab Result,Body Mass Index,39156-5,Value: 37.2 kg/m^2
+P0020,56,Male,Hispanic,False,Hba1c 5.6% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1997-05-01
+P0020,56,Male,Hispanic,False,Hba1c 5.6% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 1998-12-02
+P0020,56,Male,Hispanic,False,Hba1c 5.6% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1998-11-25
+P0020,56,Male,Hispanic,False,Hba1c 5.6% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0020,56,Male,Hispanic,False,Hba1c 5.6% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0020,56,Male,Hispanic,False,Hba1c 5.6% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.6 %
+P0020,56,Male,Hispanic,False,Hba1c 5.6% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 27.7 kg/m^2
+P0021,57,Male,Hispanic,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1997-04-22
+P0021,57,Male,Hispanic,True,,Condition,Obesity,E66.9,Diagnosed: 1993-06-27
+P0021,57,Male,Hispanic,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 1997-06-19
+P0021,57,Male,Hispanic,True,,Condition,Hypertension,I10,Diagnosed: 1997-06-25
+P0021,57,Male,Hispanic,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0021,57,Male,Hispanic,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0021,57,Male,Hispanic,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0021,57,Male,Hispanic,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 6.6 %
+P0021,57,Male,Hispanic,True,,Lab Result,Body Mass Index,39156-5,Value: 28.8 kg/m^2
+P0022,67,Female,Asian,False,Age 67 outside range [40-65],Condition,Type 2 Diabetes,E11.9,Diagnosed: 1985-07-17
+P0022,67,Female,Asian,False,Age 67 outside range [40-65],Condition,Hyperlipidemia,E78.5,Diagnosed: 1985-09-11
+P0022,67,Female,Asian,False,Age 67 outside range [40-65],Medication,Atorvastatin,860364,"20 mg, once daily"
+P0022,67,Female,Asian,False,Age 67 outside range [40-65],Lab Result,Hemoglobin A1c,4548-4,Value: 6.6 %
+P0022,67,Female,Asian,False,Age 67 outside range [40-65],Lab Result,Body Mass Index,39156-5,Value: 32.1 kg/m^2
+P0023,66,Male,Asian,False,Age 66 outside range [40-65]; Missing required condition: Type 2 Diabetes,Condition,Hypertension,I10,Diagnosed: 1986-03-27
+P0023,66,Male,Asian,False,Age 66 outside range [40-65]; Missing required condition: Type 2 Diabetes,Condition,Hyperlipidemia,E78.5,Diagnosed: 1989-01-01
+P0023,66,Male,Asian,False,Age 66 outside range [40-65]; Missing required condition: Type 2 Diabetes,Medication,Lisinopril,314076,"10 mg, once daily"
+P0023,66,Male,Asian,False,Age 66 outside range [40-65]; Missing required condition: Type 2 Diabetes,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0023,66,Male,Asian,False,Age 66 outside range [40-65]; Missing required condition: Type 2 Diabetes,Lab Result,Hemoglobin A1c,4548-4,Value: 9.3 %
+P0023,66,Male,Asian,False,Age 66 outside range [40-65]; Missing required condition: Type 2 Diabetes,Lab Result,Body Mass Index,39156-5,Value: 38.9 kg/m^2
+P0024,50,Female,Hispanic,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2004-08-14
+P0024,50,Female,Hispanic,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.8 %
+P0024,50,Female,Hispanic,True,,Lab Result,Body Mass Index,39156-5,Value: 31.9 kg/m^2
+P0025,60,Male,Hispanic,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1994-04-15
+P0025,60,Male,Hispanic,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 1994-05-07
+P0025,60,Male,Hispanic,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0025,60,Male,Hispanic,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.0 %
+P0025,60,Male,Hispanic,True,,Lab Result,Body Mass Index,39156-5,Value: 27.4 kg/m^2
+P0026,58,Male,Asian,False,Missing required condition: Type 2 Diabetes,Condition,Hyperlipidemia,E78.5,Diagnosed: 1994-08-02
+P0026,58,Male,Asian,False,Missing required condition: Type 2 Diabetes,Condition,Hypertension,I10,Diagnosed: 1993-12-30
+P0026,58,Male,Asian,False,Missing required condition: Type 2 Diabetes,Condition,Obesity,E66.9,Diagnosed: 1996-07-28
+P0026,58,Male,Asian,False,Missing required condition: Type 2 Diabetes,Medication,Lisinopril,314076,"10 mg, once daily"
+P0026,58,Male,Asian,False,Missing required condition: Type 2 Diabetes,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0026,58,Male,Asian,False,Missing required condition: Type 2 Diabetes,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0026,58,Male,Asian,False,Missing required condition: Type 2 Diabetes,Lab Result,Hemoglobin A1c,4548-4,Value: 7.1 %
+P0026,58,Male,Asian,False,Missing required condition: Type 2 Diabetes,Lab Result,Body Mass Index,39156-5,Value: 26.0 kg/m^2
+P0027,41,Male,Hispanic,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2011-09-29
+P0027,41,Male,Hispanic,True,,Condition,Obesity,E66.9,Diagnosed: 2013-01-26
+P0027,41,Male,Hispanic,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 2013-06-01
+P0027,41,Male,Hispanic,True,,Condition,Hypertension,I10,Diagnosed: 2012-03-21
+P0027,41,Male,Hispanic,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0027,41,Male,Hispanic,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0027,41,Male,Hispanic,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0027,41,Male,Hispanic,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.0 %
+P0027,41,Male,Hispanic,True,,Lab Result,Body Mass Index,39156-5,Value: 39.1 kg/m^2
+P0028,62,Male,Asian,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1992-01-08
+P0028,62,Male,Asian,True,,Condition,Obesity,E66.9,Diagnosed: 1989-08-02
+P0028,62,Male,Asian,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 1992-07-31
+P0028,62,Male,Asian,True,,Condition,Hypertension,I10,Diagnosed: 1990-02-24
+P0028,62,Male,Asian,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0028,62,Male,Asian,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0028,62,Male,Asian,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0028,62,Male,Asian,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 9.4 %
+P0028,62,Male,Asian,True,,Lab Result,Body Mass Index,39156-5,Value: 27.1 kg/m^2
+P0029,47,Male,White,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2003-04-24
+P0029,47,Male,White,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 8.6 %
+P0029,47,Male,White,True,,Lab Result,Body Mass Index,39156-5,Value: 34.9 kg/m^2
+P0030,57,Female,Asian,False,Hba1c 6.3% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1997-12-01
+P0030,57,Female,Asian,False,Hba1c 6.3% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1995-12-18
+P0030,57,Female,Asian,False,Hba1c 6.3% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 1994-10-08
+P0030,57,Female,Asian,False,Hba1c 6.3% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0030,57,Female,Asian,False,Hba1c 6.3% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0030,57,Female,Asian,False,Hba1c 6.3% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 6.3 %
+P0030,57,Female,Asian,False,Hba1c 6.3% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 29.9 kg/m^2
+P0031,65,Male,Hispanic,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1988-11-09
+P0031,65,Male,Hispanic,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.5 %
+P0031,65,Male,Hispanic,True,,Lab Result,Body Mass Index,39156-5,Value: 25.3 kg/m^2
+P0032,55,Female,White,False,Hba1c 5.5% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1998-10-26
+P0032,55,Female,White,False,Hba1c 5.5% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1998-01-29
+P0032,55,Female,White,False,Hba1c 5.5% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0032,55,Female,White,False,Hba1c 5.5% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.5 %
+P0032,55,Female,White,False,Hba1c 5.5% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 25.4 kg/m^2
+P0033,46,Male,Other,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2006-10-06
+P0033,46,Male,Other,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 8.7 %
+P0033,46,Male,Other,True,,Lab Result,Body Mass Index,39156-5,Value: 38.2 kg/m^2
+P0034,48,Female,Asian,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2003-05-11
+P0034,48,Female,Asian,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 6.7 %
+P0034,48,Female,Asian,True,,Lab Result,Body Mass Index,39156-5,Value: 28.5 kg/m^2
+P0035,57,Female,Asian,False,Hba1c 6.4% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1997-10-31
+P0035,57,Female,Asian,False,Hba1c 6.4% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 1997-12-15
+P0035,57,Female,Asian,False,Hba1c 6.4% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0035,57,Female,Asian,False,Hba1c 6.4% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 6.4 %
+P0035,57,Female,Asian,False,Hba1c 6.4% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 34.2 kg/m^2
+P0036,67,Male,Black,False,Age 67 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1985-12-07
+P0036,67,Male,Black,False,Age 67 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 1987-05-01
+P0036,67,Male,Black,False,Age 67 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1987-01-18
+P0036,67,Male,Black,False,Age 67 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 1986-03-04
+P0036,67,Male,Black,False,Age 67 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0036,67,Male,Black,False,Age 67 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0036,67,Male,Black,False,Age 67 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0036,67,Male,Black,False,Age 67 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.5 %
+P0036,67,Male,Black,False,Age 67 outside range [40-65]; Hba1c 5.5% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 31.2 kg/m^2
+P0037,64,Male,Other,False,Missing required condition: Type 2 Diabetes,Condition,Obesity,E66.9,Diagnosed: 1989-09-29
+P0037,64,Male,Other,False,Missing required condition: Type 2 Diabetes,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0037,64,Male,Other,False,Missing required condition: Type 2 Diabetes,Lab Result,Hemoglobin A1c,4548-4,Value: 8.4 %
+P0037,64,Male,Other,False,Missing required condition: Type 2 Diabetes,Lab Result,Body Mass Index,39156-5,Value: 31.1 kg/m^2
+P0038,64,Male,White,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1990-08-29
+P0038,64,Male,White,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.8 %
+P0038,64,Male,White,True,,Lab Result,Body Mass Index,39156-5,Value: 29.8 kg/m^2
+P0039,66,Female,White,False,Age 66 outside range [40-65],Condition,Type 2 Diabetes,E11.9,Diagnosed: 1987-08-02
+P0039,66,Female,White,False,Age 66 outside range [40-65],Condition,Obesity,E66.9,Diagnosed: 1987-09-19
+P0039,66,Female,White,False,Age 66 outside range [40-65],Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0039,66,Female,White,False,Age 66 outside range [40-65],Lab Result,Hemoglobin A1c,4548-4,Value: 7.6 %
+P0039,66,Female,White,False,Age 66 outside range [40-65],Lab Result,Body Mass Index,39156-5,Value: 30.7 kg/m^2
+P0040,57,Female,Hispanic,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1997-02-09
+P0040,57,Female,Hispanic,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 6.5 %
+P0040,57,Female,Hispanic,True,,Lab Result,Body Mass Index,39156-5,Value: 34.4 kg/m^2
+P0041,56,Male,Asian,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1997-09-23
+P0041,56,Male,Asian,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 1996-12-10
+P0041,56,Male,Asian,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0041,56,Male,Asian,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.2 %
+P0041,56,Male,Asian,True,,Lab Result,Body Mass Index,39156-5,Value: 25.3 kg/m^2
+P0042,61,Male,Hispanic,False,Hba1c 5.8% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1990-05-13
+P0042,61,Male,Hispanic,False,Hba1c 5.8% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 1993-01-19
+P0042,61,Male,Hispanic,False,Hba1c 5.8% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 1993-09-02
+P0042,61,Male,Hispanic,False,Hba1c 5.8% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0042,61,Male,Hispanic,False,Hba1c 5.8% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0042,61,Male,Hispanic,False,Hba1c 5.8% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.8 %
+P0042,61,Male,Hispanic,False,Hba1c 5.8% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 29.6 kg/m^2
+P0043,43,Female,Hispanic,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2011-02-01
+P0043,43,Female,Hispanic,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 2011-05-22
+P0043,43,Female,Hispanic,True,,Condition,Obesity,E66.9,Diagnosed: 2007-12-16
+P0043,43,Female,Hispanic,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0043,43,Female,Hispanic,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0043,43,Female,Hispanic,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 9.0 %
+P0043,43,Female,Hispanic,True,,Lab Result,Body Mass Index,39156-5,Value: 39.4 kg/m^2
+P0044,50,Female,Asian,False,Hba1c 6.2% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2004-05-08
+P0044,50,Female,Asian,False,Hba1c 6.2% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 2004-08-14
+P0044,50,Female,Asian,False,Hba1c 6.2% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 2002-03-13
+P0044,50,Female,Asian,False,Hba1c 6.2% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0044,50,Female,Asian,False,Hba1c 6.2% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0044,50,Female,Asian,False,Hba1c 6.2% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 6.2 %
+P0044,50,Female,Asian,False,Hba1c 6.2% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 26.6 kg/m^2
+P0045,47,Female,Hispanic,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2007-02-06
+P0045,47,Female,Hispanic,True,,Condition,Hypertension,I10,Diagnosed: 2006-03-02
+P0045,47,Female,Hispanic,True,,Condition,Obesity,E66.9,Diagnosed: 2006-10-01
+P0045,47,Female,Hispanic,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0045,47,Female,Hispanic,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0045,47,Female,Hispanic,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.5 %
+P0045,47,Female,Hispanic,True,,Lab Result,Body Mass Index,39156-5,Value: 32.6 kg/m^2
+P0046,62,Female,Hispanic,False,Hba1c 5.8% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1990-06-08
+P0046,62,Female,Hispanic,False,Hba1c 5.8% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.8 %
+P0046,62,Female,Hispanic,False,Hba1c 5.8% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 30.5 kg/m^2
+P0047,70,Male,Asian,False,Age 70 outside range [40-65]; Missing required condition: Type 2 Diabetes,Lab Result,Hemoglobin A1c,4548-4,Value: 9.0 %
+P0047,70,Male,Asian,False,Age 70 outside range [40-65]; Missing required condition: Type 2 Diabetes,Lab Result,Body Mass Index,39156-5,Value: 27.4 kg/m^2
+P0048,46,Male,Asian,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2007-10-31
+P0048,46,Male,Asian,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 2008-12-01
+P0048,46,Male,Asian,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0048,46,Male,Asian,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.8 %
+P0048,46,Male,Asian,True,,Lab Result,Body Mass Index,39156-5,Value: 28.3 kg/m^2
+P0049,42,Female,White,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2009-05-07
+P0049,42,Female,White,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 9.4 %
+P0049,42,Female,White,True,,Lab Result,Body Mass Index,39156-5,Value: 39.9 kg/m^2
+P0050,50,Female,White,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2004-11-03
+P0050,50,Female,White,True,,Condition,Obesity,E66.9,Diagnosed: 2004-03-16
+P0050,50,Female,White,True,,Condition,Hypertension,I10,Diagnosed: 2004-04-29
+P0050,50,Female,White,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0050,50,Female,White,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0050,50,Female,White,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.3 %
+P0050,50,Female,White,True,,Lab Result,Body Mass Index,39156-5,Value: 25.4 kg/m^2
+P0051,55,Female,Asian,False,Hba1c 6.0% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1999-01-23
+P0051,55,Female,Asian,False,Hba1c 6.0% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 1998-02-18
+P0051,55,Female,Asian,False,Hba1c 6.0% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 1999-10-07
+P0051,55,Female,Asian,False,Hba1c 6.0% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1996-01-30
+P0051,55,Female,Asian,False,Hba1c 6.0% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0051,55,Female,Asian,False,Hba1c 6.0% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0051,55,Female,Asian,False,Hba1c 6.0% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0051,55,Female,Asian,False,Hba1c 6.0% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 6.0 %
+P0051,55,Female,Asian,False,Hba1c 6.0% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 26.8 kg/m^2
+P0052,63,Female,Black,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1989-04-23
+P0052,63,Female,Black,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 1988-02-25
+P0052,63,Female,Black,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0052,63,Female,Black,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 8.7 %
+P0052,63,Female,Black,True,,Lab Result,Body Mass Index,39156-5,Value: 33.9 kg/m^2
+P0053,51,Female,Black,False,Hba1c 6.1% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2003-04-26
+P0053,51,Female,Black,False,Hba1c 6.1% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 2002-08-17
+P0053,51,Female,Black,False,Hba1c 6.1% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 2003-08-21
+P0053,51,Female,Black,False,Hba1c 6.1% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0053,51,Female,Black,False,Hba1c 6.1% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0053,51,Female,Black,False,Hba1c 6.1% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 6.1 %
+P0053,51,Female,Black,False,Hba1c 6.1% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 28.8 kg/m^2
+P0054,64,Female,Other,False,Hba1c 5.4% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1990-01-25
+P0054,64,Female,Other,False,Hba1c 5.4% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 1990-03-04
+P0054,64,Female,Other,False,Hba1c 5.4% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1990-08-02
+P0054,64,Female,Other,False,Hba1c 5.4% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0054,64,Female,Other,False,Hba1c 5.4% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0054,64,Female,Other,False,Hba1c 5.4% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.4 %
+P0054,64,Female,Other,False,Hba1c 5.4% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 32.0 kg/m^2
+P0055,65,Female,Black,False,Hba1c 5.6% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1986-01-06
+P0055,65,Female,Black,False,Hba1c 5.6% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 1986-10-11
+P0055,65,Female,Black,False,Hba1c 5.6% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1989-06-21
+P0055,65,Female,Black,False,Hba1c 5.6% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0055,65,Female,Black,False,Hba1c 5.6% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0055,65,Female,Black,False,Hba1c 5.6% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.6 %
+P0055,65,Female,Black,False,Hba1c 5.6% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 30.0 kg/m^2
+P0056,55,Female,Black,False,Missing required condition: Type 2 Diabetes,Condition,Hyperlipidemia,E78.5,Diagnosed: 1999-08-11
+P0056,55,Female,Black,False,Missing required condition: Type 2 Diabetes,Condition,Hypertension,I10,Diagnosed: 1998-02-19
+P0056,55,Female,Black,False,Missing required condition: Type 2 Diabetes,Medication,Lisinopril,314076,"10 mg, once daily"
+P0056,55,Female,Black,False,Missing required condition: Type 2 Diabetes,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0056,55,Female,Black,False,Missing required condition: Type 2 Diabetes,Lab Result,Hemoglobin A1c,4548-4,Value: 8.1 %
+P0056,55,Female,Black,False,Missing required condition: Type 2 Diabetes,Lab Result,Body Mass Index,39156-5,Value: 25.9 kg/m^2
+P0057,63,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1991-01-03
+P0057,63,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 1990-10-03
+P0057,63,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1990-11-04
+P0057,63,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0057,63,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0057,63,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.4 %
+P0057,63,Female,White,False,Hba1c 5.4% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 28.5 kg/m^2
+P0058,54,Male,White,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2000-07-21
+P0058,54,Male,White,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 1996-01-10
+P0058,54,Male,White,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0058,54,Male,White,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 6.5 %
+P0058,54,Male,White,True,,Lab Result,Body Mass Index,39156-5,Value: 31.4 kg/m^2
+P0059,52,Male,Other,False,Hba1c 6.3% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2002-04-12
+P0059,52,Male,Other,False,Hba1c 6.3% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 2000-08-17
+P0059,52,Male,Other,False,Hba1c 6.3% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0059,52,Male,Other,False,Hba1c 6.3% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 6.3 %
+P0059,52,Male,Other,False,Hba1c 6.3% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 38.2 kg/m^2
+P0060,52,Male,Asian,False,Missing required condition: Type 2 Diabetes,Condition,Obesity,E66.9,Diagnosed: 2000-01-11
+P0060,52,Male,Asian,False,Missing required condition: Type 2 Diabetes,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0060,52,Male,Asian,False,Missing required condition: Type 2 Diabetes,Lab Result,Hemoglobin A1c,4548-4,Value: 6.8 %
+P0060,52,Male,Asian,False,Missing required condition: Type 2 Diabetes,Lab Result,Body Mass Index,39156-5,Value: 39.2 kg/m^2
+P0061,48,Female,Other,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2005-02-09
+P0061,48,Female,Other,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 2003-12-08
+P0061,48,Female,Other,True,,Condition,Hypertension,I10,Diagnosed: 2005-12-08
+P0061,48,Female,Other,True,,Condition,Obesity,E66.9,Diagnosed: 2003-08-28
+P0061,48,Female,Other,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0061,48,Female,Other,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0061,48,Female,Other,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0061,48,Female,Other,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.0 %
+P0061,48,Female,Other,True,,Lab Result,Body Mass Index,39156-5,Value: 28.2 kg/m^2
+P0062,49,Male,Other,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2005-07-01
+P0062,49,Male,Other,True,,Condition,Hypertension,I10,Diagnosed: 2003-06-14
+P0062,49,Male,Other,True,,Condition,Obesity,E66.9,Diagnosed: 2002-12-08
+P0062,49,Male,Other,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0062,49,Male,Other,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0062,49,Male,Other,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 8.3 %
+P0062,49,Male,Other,True,,Lab Result,Body Mass Index,39156-5,Value: 33.2 kg/m^2
+P0063,48,Male,White,False,Missing required condition: Type 2 Diabetes,Condition,Obesity,E66.9,Diagnosed: 2006-08-07
+P0063,48,Male,White,False,Missing required condition: Type 2 Diabetes,Condition,Hypertension,I10,Diagnosed: 2006-08-25
+P0063,48,Male,White,False,Missing required condition: Type 2 Diabetes,Medication,Lisinopril,314076,"10 mg, once daily"
+P0063,48,Male,White,False,Missing required condition: Type 2 Diabetes,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0063,48,Male,White,False,Missing required condition: Type 2 Diabetes,Lab Result,Hemoglobin A1c,4548-4,Value: 7.1 %
+P0063,48,Male,White,False,Missing required condition: Type 2 Diabetes,Lab Result,Body Mass Index,39156-5,Value: 39.0 kg/m^2
+P0064,46,Female,Hispanic,False,Hba1c 6.2% is below minimum of 6.5%; Missing required condition: Type 2 Diabetes,Condition,Hyperlipidemia,E78.5,Diagnosed: 2007-09-23
+P0064,46,Female,Hispanic,False,Hba1c 6.2% is below minimum of 6.5%; Missing required condition: Type 2 Diabetes,Condition,Hypertension,I10,Diagnosed: 2008-06-01
+P0064,46,Female,Hispanic,False,Hba1c 6.2% is below minimum of 6.5%; Missing required condition: Type 2 Diabetes,Condition,Obesity,E66.9,Diagnosed: 2008-10-04
+P0064,46,Female,Hispanic,False,Hba1c 6.2% is below minimum of 6.5%; Missing required condition: Type 2 Diabetes,Medication,Lisinopril,314076,"10 mg, once daily"
+P0064,46,Female,Hispanic,False,Hba1c 6.2% is below minimum of 6.5%; Missing required condition: Type 2 Diabetes,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0064,46,Female,Hispanic,False,Hba1c 6.2% is below minimum of 6.5%; Missing required condition: Type 2 Diabetes,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0064,46,Female,Hispanic,False,Hba1c 6.2% is below minimum of 6.5%; Missing required condition: Type 2 Diabetes,Lab Result,Hemoglobin A1c,4548-4,Value: 6.2 %
+P0064,46,Female,Hispanic,False,Hba1c 6.2% is below minimum of 6.5%; Missing required condition: Type 2 Diabetes,Lab Result,Body Mass Index,39156-5,Value: 25.4 kg/m^2
+P0065,41,Male,Other,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2010-05-02
+P0065,41,Male,Other,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 2011-03-12
+P0065,41,Male,Other,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0065,41,Male,Other,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 6.6 %
+P0065,41,Male,Other,True,,Lab Result,Body Mass Index,39156-5,Value: 29.9 kg/m^2
+P0066,70,Male,Other,False,Age 70 outside range [40-65]; Hba1c 5.7% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1983-07-14
+P0066,70,Male,Other,False,Age 70 outside range [40-65]; Hba1c 5.7% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 1984-09-27
+P0066,70,Male,Other,False,Age 70 outside range [40-65]; Hba1c 5.7% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1982-05-07
+P0066,70,Male,Other,False,Age 70 outside range [40-65]; Hba1c 5.7% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 1984-02-28
+P0066,70,Male,Other,False,Age 70 outside range [40-65]; Hba1c 5.7% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0066,70,Male,Other,False,Age 70 outside range [40-65]; Hba1c 5.7% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0066,70,Male,Other,False,Age 70 outside range [40-65]; Hba1c 5.7% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0066,70,Male,Other,False,Age 70 outside range [40-65]; Hba1c 5.7% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.7 %
+P0066,70,Male,Other,False,Age 70 outside range [40-65]; Hba1c 5.7% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 39.0 kg/m^2
+P0067,57,Male,White,False,Hba1c 5.3% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1996-12-04
+P0067,57,Male,White,False,Hba1c 5.3% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.3 %
+P0067,57,Male,White,False,Hba1c 5.3% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 36.9 kg/m^2
+P0068,51,Female,Other,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2002-09-18
+P0068,51,Female,Other,True,,Condition,Hypertension,I10,Diagnosed: 2000-07-28
+P0068,51,Female,Other,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0068,51,Female,Other,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.8 %
+P0068,51,Female,Other,True,,Lab Result,Body Mass Index,39156-5,Value: 38.3 kg/m^2
+P0069,60,Female,Hispanic,False,Hba1c 6.4% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1993-07-13
+P0069,60,Female,Hispanic,False,Hba1c 6.4% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 1991-06-25
+P0069,60,Female,Hispanic,False,Hba1c 6.4% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1994-09-17
+P0069,60,Female,Hispanic,False,Hba1c 6.4% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0069,60,Female,Hispanic,False,Hba1c 6.4% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0069,60,Female,Hispanic,False,Hba1c 6.4% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 6.4 %
+P0069,60,Female,Hispanic,False,Hba1c 6.4% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 28.3 kg/m^2
+P0070,59,Female,Other,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1995-03-04
+P0070,59,Female,Other,True,,Condition,Obesity,E66.9,Diagnosed: 1992-06-13
+P0070,59,Female,Other,True,,Condition,Hypertension,I10,Diagnosed: 1992-10-03
+P0070,59,Female,Other,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0070,59,Female,Other,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0070,59,Female,Other,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.6 %
+P0070,59,Female,Other,True,,Lab Result,Body Mass Index,39156-5,Value: 24.7 kg/m^2
+P0071,69,Male,Other,False,Age 69 outside range [40-65],Condition,Type 2 Diabetes,E11.9,Diagnosed: 1984-01-16
+P0071,69,Male,Other,False,Age 69 outside range [40-65],Condition,Obesity,E66.9,Diagnosed: 1983-04-20
+P0071,69,Male,Other,False,Age 69 outside range [40-65],Condition,Hypertension,I10,Diagnosed: 1984-11-25
+P0071,69,Male,Other,False,Age 69 outside range [40-65],Condition,Hyperlipidemia,E78.5,Diagnosed: 1984-08-30
+P0071,69,Male,Other,False,Age 69 outside range [40-65],Medication,Lisinopril,314076,"10 mg, once daily"
+P0071,69,Male,Other,False,Age 69 outside range [40-65],Medication,Atorvastatin,860364,"20 mg, once daily"
+P0071,69,Male,Other,False,Age 69 outside range [40-65],Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0071,69,Male,Other,False,Age 69 outside range [40-65],Lab Result,Hemoglobin A1c,4548-4,Value: 8.5 %
+P0071,69,Male,Other,False,Age 69 outside range [40-65],Lab Result,Body Mass Index,39156-5,Value: 38.4 kg/m^2
+P0072,61,Female,Hispanic,False,Hba1c 6.0% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1991-01-07
+P0072,61,Female,Hispanic,False,Hba1c 6.0% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 6.0 %
+P0072,61,Female,Hispanic,False,Hba1c 6.0% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 32.7 kg/m^2
+P0073,44,Male,Black,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2010-02-10
+P0073,44,Male,Black,True,,Condition,Hypertension,I10,Diagnosed: 2010-01-13
+P0073,44,Male,Black,True,,Condition,Obesity,E66.9,Diagnosed: 2009-11-04
+P0073,44,Male,Black,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 2010-04-19
+P0073,44,Male,Black,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0073,44,Male,Black,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0073,44,Male,Black,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0073,44,Male,Black,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 8.4 %
+P0073,44,Male,Black,True,,Lab Result,Body Mass Index,39156-5,Value: 34.1 kg/m^2
+P0074,54,Female,Hispanic,False,Hba1c 5.5% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2000-05-18
+P0074,54,Female,Hispanic,False,Hba1c 5.5% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 2000-11-02
+P0074,54,Female,Hispanic,False,Hba1c 5.5% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0074,54,Female,Hispanic,False,Hba1c 5.5% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.5 %
+P0074,54,Female,Hispanic,False,Hba1c 5.5% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 31.3 kg/m^2
+P0075,49,Male,Asian,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2004-01-30
+P0075,49,Male,Asian,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.6 %
+P0075,49,Male,Asian,True,,Lab Result,Body Mass Index,39156-5,Value: 29.1 kg/m^2
+P0076,57,Male,White,False,Hba1c 5.2% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1997-01-30
+P0076,57,Male,White,False,Hba1c 5.2% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1994-04-25
+P0076,57,Male,White,False,Hba1c 5.2% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 1997-10-01
+P0076,57,Male,White,False,Hba1c 5.2% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 1995-12-27
+P0076,57,Male,White,False,Hba1c 5.2% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0076,57,Male,White,False,Hba1c 5.2% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0076,57,Male,White,False,Hba1c 5.2% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0076,57,Male,White,False,Hba1c 5.2% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.2 %
+P0076,57,Male,White,False,Hba1c 5.2% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 33.0 kg/m^2
+P0077,64,Male,White,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1990-09-29
+P0077,64,Male,White,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 1989-11-18
+P0077,64,Male,White,True,,Condition,Obesity,E66.9,Diagnosed: 1990-03-10
+P0077,64,Male,White,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0077,64,Male,White,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0077,64,Male,White,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 6.8 %
+P0077,64,Male,White,True,,Lab Result,Body Mass Index,39156-5,Value: 37.7 kg/m^2
+P0078,60,Male,White,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1993-07-09
+P0078,60,Male,White,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 8.9 %
+P0078,60,Male,White,True,,Lab Result,Body Mass Index,39156-5,Value: 38.5 kg/m^2
+P0079,51,Female,Other,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2002-04-22
+P0079,51,Female,Other,True,,Condition,Obesity,E66.9,Diagnosed: 2002-09-24
+P0079,51,Female,Other,True,,Condition,Hypertension,I10,Diagnosed: 2000-06-04
+P0079,51,Female,Other,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0079,51,Female,Other,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0079,51,Female,Other,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 8.9 %
+P0079,51,Female,Other,True,,Lab Result,Body Mass Index,39156-5,Value: 27.8 kg/m^2
+P0080,70,Male,Other,False,Age 70 outside range [40-65],Condition,Type 2 Diabetes,E11.9,Diagnosed: 1982-04-24
+P0080,70,Male,Other,False,Age 70 outside range [40-65],Condition,Hyperlipidemia,E78.5,Diagnosed: 1984-06-21
+P0080,70,Male,Other,False,Age 70 outside range [40-65],Medication,Atorvastatin,860364,"20 mg, once daily"
+P0080,70,Male,Other,False,Age 70 outside range [40-65],Lab Result,Hemoglobin A1c,4548-4,Value: 8.5 %
+P0080,70,Male,Other,False,Age 70 outside range [40-65],Lab Result,Body Mass Index,39156-5,Value: 26.3 kg/m^2
+P0081,62,Female,Black,False,Hba1c 5.5% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1989-05-11
+P0081,62,Female,Black,False,Hba1c 5.5% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.5 %
+P0081,62,Female,Black,False,Hba1c 5.5% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 33.2 kg/m^2
+P0082,54,Female,Black,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2000-08-05
+P0082,54,Female,Black,True,,Condition,Obesity,E66.9,Diagnosed: 1999-07-12
+P0082,54,Female,Black,True,,Condition,Hypertension,I10,Diagnosed: 1999-12-07
+P0082,54,Female,Black,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0082,54,Female,Black,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0082,54,Female,Black,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.6 %
+P0082,54,Female,Black,True,,Lab Result,Body Mass Index,39156-5,Value: 27.9 kg/m^2
+P0083,53,Female,Hispanic,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2000-10-25
+P0083,53,Female,Hispanic,True,,Condition,Obesity,E66.9,Diagnosed: 2000-09-13
+P0083,53,Female,Hispanic,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 2001-06-26
+P0083,53,Female,Hispanic,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0083,53,Female,Hispanic,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0083,53,Female,Hispanic,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 8.9 %
+P0083,53,Female,Hispanic,True,,Lab Result,Body Mass Index,39156-5,Value: 34.6 kg/m^2
+P0084,68,Male,Hispanic,False,Age 68 outside range [40-65],Condition,Type 2 Diabetes,E11.9,Diagnosed: 1986-01-26
+P0084,68,Male,Hispanic,False,Age 68 outside range [40-65],Condition,Hypertension,I10,Diagnosed: 1986-11-16
+P0084,68,Male,Hispanic,False,Age 68 outside range [40-65],Condition,Hyperlipidemia,E78.5,Diagnosed: 1986-04-28
+P0084,68,Male,Hispanic,False,Age 68 outside range [40-65],Medication,Lisinopril,314076,"10 mg, once daily"
+P0084,68,Male,Hispanic,False,Age 68 outside range [40-65],Medication,Atorvastatin,860364,"20 mg, once daily"
+P0084,68,Male,Hispanic,False,Age 68 outside range [40-65],Lab Result,Hemoglobin A1c,4548-4,Value: 7.1 %
+P0084,68,Male,Hispanic,False,Age 68 outside range [40-65],Lab Result,Body Mass Index,39156-5,Value: 39.2 kg/m^2
+P0085,52,Female,Other,False,Hba1c 5.8% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1999-05-20
+P0085,52,Female,Other,False,Hba1c 5.8% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.8 %
+P0085,52,Female,Other,False,Hba1c 5.8% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 35.1 kg/m^2
+P0086,48,Male,Asian,False,Hba1c 6.1% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2006-08-01
+P0086,48,Male,Asian,False,Hba1c 6.1% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 2004-12-17
+P0086,48,Male,Asian,False,Hba1c 6.1% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 2005-03-17
+P0086,48,Male,Asian,False,Hba1c 6.1% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0086,48,Male,Asian,False,Hba1c 6.1% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0086,48,Male,Asian,False,Hba1c 6.1% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 6.1 %
+P0086,48,Male,Asian,False,Hba1c 6.1% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 35.3 kg/m^2
+P0087,66,Male,White,False,Age 66 outside range [40-65],Condition,Type 2 Diabetes,E11.9,Diagnosed: 1988-04-17
+P0087,66,Male,White,False,Age 66 outside range [40-65],Condition,Obesity,E66.9,Diagnosed: 1988-01-01
+P0087,66,Male,White,False,Age 66 outside range [40-65],Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0087,66,Male,White,False,Age 66 outside range [40-65],Lab Result,Hemoglobin A1c,4548-4,Value: 8.2 %
+P0087,66,Male,White,False,Age 66 outside range [40-65],Lab Result,Body Mass Index,39156-5,Value: 39.6 kg/m^2
+P0088,67,Female,Asian,False,Age 67 outside range [40-65],Condition,Type 2 Diabetes,E11.9,Diagnosed: 1987-03-22
+P0088,67,Female,Asian,False,Age 67 outside range [40-65],Condition,Obesity,E66.9,Diagnosed: 1985-03-03
+P0088,67,Female,Asian,False,Age 67 outside range [40-65],Condition,Hyperlipidemia,E78.5,Diagnosed: 1986-10-13
+P0088,67,Female,Asian,False,Age 67 outside range [40-65],Condition,Hypertension,I10,Diagnosed: 1985-07-15
+P0088,67,Female,Asian,False,Age 67 outside range [40-65],Medication,Lisinopril,314076,"10 mg, once daily"
+P0088,67,Female,Asian,False,Age 67 outside range [40-65],Medication,Atorvastatin,860364,"20 mg, once daily"
+P0088,67,Female,Asian,False,Age 67 outside range [40-65],Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0088,67,Female,Asian,False,Age 67 outside range [40-65],Lab Result,Hemoglobin A1c,4548-4,Value: 8.0 %
+P0088,67,Female,Asian,False,Age 67 outside range [40-65],Lab Result,Body Mass Index,39156-5,Value: 26.9 kg/m^2
+P0089,67,Male,Black,False,Age 67 outside range [40-65],Condition,Type 2 Diabetes,E11.9,Diagnosed: 1984-04-05
+P0089,67,Male,Black,False,Age 67 outside range [40-65],Condition,Hypertension,I10,Diagnosed: 1986-05-26
+P0089,67,Male,Black,False,Age 67 outside range [40-65],Condition,Hyperlipidemia,E78.5,Diagnosed: 1987-02-01
+P0089,67,Male,Black,False,Age 67 outside range [40-65],Medication,Lisinopril,314076,"10 mg, once daily"
+P0089,67,Male,Black,False,Age 67 outside range [40-65],Medication,Atorvastatin,860364,"20 mg, once daily"
+P0089,67,Male,Black,False,Age 67 outside range [40-65],Lab Result,Hemoglobin A1c,4548-4,Value: 6.7 %
+P0089,67,Male,Black,False,Age 67 outside range [40-65],Lab Result,Body Mass Index,39156-5,Value: 27.5 kg/m^2
+P0090,61,Female,White,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1990-07-19
+P0090,61,Female,White,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.9 %
+P0090,61,Female,White,True,,Lab Result,Body Mass Index,39156-5,Value: 33.2 kg/m^2
+P0091,42,Male,Asian,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2012-09-14
+P0091,42,Male,Asian,True,,Condition,Obesity,E66.9,Diagnosed: 2009-12-11
+P0091,42,Male,Asian,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 2010-02-08
+P0091,42,Male,Asian,True,,Condition,Hypertension,I10,Diagnosed: 2012-01-11
+P0091,42,Male,Asian,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0091,42,Male,Asian,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0091,42,Male,Asian,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0091,42,Male,Asian,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 6.6 %
+P0091,42,Male,Asian,True,,Lab Result,Body Mass Index,39156-5,Value: 38.2 kg/m^2
+P0092,64,Male,Black,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1990-01-12
+P0092,64,Male,Black,True,,Condition,Obesity,E66.9,Diagnosed: 1989-07-27
+P0092,64,Male,Black,True,,Condition,Hypertension,I10,Diagnosed: 1987-04-28
+P0092,64,Male,Black,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0092,64,Male,Black,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0092,64,Male,Black,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.6 %
+P0092,64,Male,Black,True,,Lab Result,Body Mass Index,39156-5,Value: 27.8 kg/m^2
+P0093,65,Female,White,False,Hba1c 6.3% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1989-06-05
+P0093,65,Female,White,False,Hba1c 6.3% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1988-03-15
+P0093,65,Female,White,False,Hba1c 6.3% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 1989-11-07
+P0093,65,Female,White,False,Hba1c 6.3% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 1989-07-14
+P0093,65,Female,White,False,Hba1c 6.3% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0093,65,Female,White,False,Hba1c 6.3% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0093,65,Female,White,False,Hba1c 6.3% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0093,65,Female,White,False,Hba1c 6.3% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 6.3 %
+P0093,65,Female,White,False,Hba1c 6.3% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 39.4 kg/m^2
+P0094,56,Male,Black,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1998-03-11
+P0094,56,Male,Black,True,,Condition,Obesity,E66.9,Diagnosed: 1998-07-28
+P0094,56,Male,Black,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 1998-03-11
+P0094,56,Male,Black,True,,Condition,Hypertension,I10,Diagnosed: 1998-11-19
+P0094,56,Male,Black,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0094,56,Male,Black,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0094,56,Male,Black,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0094,56,Male,Black,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 8.3 %
+P0094,56,Male,Black,True,,Lab Result,Body Mass Index,39156-5,Value: 36.9 kg/m^2
+P0095,51,Male,Black,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 2001-03-28
+P0095,51,Male,Black,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 2003-06-15
+P0095,51,Male,Black,True,,Condition,Hypertension,I10,Diagnosed: 2001-11-13
+P0095,51,Male,Black,True,,Condition,Obesity,E66.9,Diagnosed: 1999-03-29
+P0095,51,Male,Black,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0095,51,Male,Black,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0095,51,Male,Black,True,,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0095,51,Male,Black,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.1 %
+P0095,51,Male,Black,True,,Lab Result,Body Mass Index,39156-5,Value: 25.1 kg/m^2
+P0096,60,Female,Hispanic,True,,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1994-06-27
+P0096,60,Female,Hispanic,True,,Condition,Hypertension,I10,Diagnosed: 1993-05-24
+P0096,60,Female,Hispanic,True,,Condition,Hyperlipidemia,E78.5,Diagnosed: 1994-09-12
+P0096,60,Female,Hispanic,True,,Medication,Lisinopril,314076,"10 mg, once daily"
+P0096,60,Female,Hispanic,True,,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0096,60,Female,Hispanic,True,,Lab Result,Hemoglobin A1c,4548-4,Value: 7.1 %
+P0096,60,Female,Hispanic,True,,Lab Result,Body Mass Index,39156-5,Value: 31.7 kg/m^2
+P0097,70,Female,White,False,Age 70 outside range [40-65]; Hba1c 6.2% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1984-04-17
+P0097,70,Female,White,False,Age 70 outside range [40-65]; Hba1c 6.2% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1984-05-18
+P0097,70,Female,White,False,Age 70 outside range [40-65]; Hba1c 6.2% is below minimum of 6.5%,Condition,Hyperlipidemia,E78.5,Diagnosed: 1983-04-01
+P0097,70,Female,White,False,Age 70 outside range [40-65]; Hba1c 6.2% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 1984-02-25
+P0097,70,Female,White,False,Age 70 outside range [40-65]; Hba1c 6.2% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0097,70,Female,White,False,Age 70 outside range [40-65]; Hba1c 6.2% is below minimum of 6.5%,Medication,Atorvastatin,860364,"20 mg, once daily"
+P0097,70,Female,White,False,Age 70 outside range [40-65]; Hba1c 6.2% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0097,70,Female,White,False,Age 70 outside range [40-65]; Hba1c 6.2% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 6.2 %
+P0097,70,Female,White,False,Age 70 outside range [40-65]; Hba1c 6.2% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 30.3 kg/m^2
+P0098,70,Male,White,False,Age 70 outside range [40-65]; Hba1c 5.3% is below minimum of 6.5%,Condition,Type 2 Diabetes,E11.9,Diagnosed: 1984-08-06
+P0098,70,Male,White,False,Age 70 outside range [40-65]; Hba1c 5.3% is below minimum of 6.5%,Condition,Obesity,E66.9,Diagnosed: 1984-02-12
+P0098,70,Male,White,False,Age 70 outside range [40-65]; Hba1c 5.3% is below minimum of 6.5%,Condition,Hypertension,I10,Diagnosed: 1983-05-13
+P0098,70,Male,White,False,Age 70 outside range [40-65]; Hba1c 5.3% is below minimum of 6.5%,Medication,Lisinopril,314076,"10 mg, once daily"
+P0098,70,Male,White,False,Age 70 outside range [40-65]; Hba1c 5.3% is below minimum of 6.5%,Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0098,70,Male,White,False,Age 70 outside range [40-65]; Hba1c 5.3% is below minimum of 6.5%,Lab Result,Hemoglobin A1c,4548-4,Value: 5.3 %
+P0098,70,Male,White,False,Age 70 outside range [40-65]; Hba1c 5.3% is below minimum of 6.5%,Lab Result,Body Mass Index,39156-5,Value: 36.3 kg/m^2
+P0099,69,Male,Asian,False,Age 69 outside range [40-65],Condition,Type 2 Diabetes,E11.9,Diagnosed: 1985-12-08
+P0099,69,Male,Asian,False,Age 69 outside range [40-65],Condition,Obesity,E66.9,Diagnosed: 1985-06-25
+P0099,69,Male,Asian,False,Age 69 outside range [40-65],Medication,Lifestyle Therapy,N/A,"N/A, ongoing"
+P0099,69,Male,Asian,False,Age 69 outside range [40-65],Lab Result,Hemoglobin A1c,4548-4,Value: 6.5 %
+P0099,69,Male,Asian,False,Age 69 outside range [40-65],Lab Result,Body Mass Index,39156-5,Value: 32.1 kg/m^2
