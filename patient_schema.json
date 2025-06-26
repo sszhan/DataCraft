@@ -3,9 +3,11 @@
     "age": "integer (40-65)",
     "sex": "Male/Female",
     "ethnicity": "string",
-    "bmi": "float (25-35)",
-    "hba1c": "float (>6.5%)",
+    "trial_eligible": "boolean",
+    "ineligibility_reasons": ["list of strings"],
     "conditions": ["list of strings"],
     "medications": ["list of strings"],
-    "meets criteria": "boolean"
+    "lab results": ["list of strings"],
+    "bmi": "float (25-35)",
+    "hba1c": "float (>6.5%)"
 }
